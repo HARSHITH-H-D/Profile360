@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bground">
+
+    <!-- Search Bar for searching staff profiles -->
+    <EditText
+        android:id="@+id/searchBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="Search staff profiles"
+        android:padding="10dp"
+        android:background="@android:drawable/edit_text"
+        android:drawableLeft="@android:drawable/ic_menu_search"
+        android:drawablePadding="8dp"
+        android:inputType="text" />
+
+    <!-- ListView for displaying profiles -->
+    <ListView
+        android:id="@+id/listViewProfiles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/searchBar"
+        android:layout_marginTop="8dp" />
+
+    <!-- Button for adding a new profile -->
+    <Button
+        android:id="@+id/buttonAddProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Add Profile"
+        android:layout_marginBottom="16dp"/>
+</RelativeLayout>

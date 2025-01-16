@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bground">
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="385dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="100dp"
+        android:hint="Username"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/editTextConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        app:layout_constraintTop_toBottomOf="@+id/editTextConfirmPassword" />
+</LinearLayout>

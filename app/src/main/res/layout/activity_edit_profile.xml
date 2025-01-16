@@ -1,0 +1,99 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bground">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+        <EditText
+            android:id="@+id/etName"
+            android:textColorHint="@color/blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Name" />
+
+        <EditText
+            android:id="@+id/etJobTitle"
+            android:textColorHint="@color/blue"
+            android:layout_width="146dp"
+            android:layout_height="58dp"
+            android:hint="Enter Job Title" />
+
+        <EditText
+            android:id="@+id/etSkills"
+            android:textColorHint="@color/blue"
+            android:layout_width="154dp"
+            android:layout_height="56dp"
+            android:hint="Enter Skills" />
+
+        <EditText
+            android:id="@+id/etCertifications"
+            android:layout_width="223dp"
+            android:textColorHint="@color/blue"
+            android:layout_height="59dp"
+            android:hint="Enter Certifications" />
+    <!-- New button to upload certificate file -->
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:textColorHint="@color/blue"
+            android:layout_width="146dp"
+            android:layout_height="58dp"
+            android:hint="Enter Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:hint="Enter Phone Number"
+            android:textColorHint="@color/blue"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/etExperience"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:hint="Enter Experience (Years)"
+            android:textColorHint="@color/blue"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etAbout"
+            android:layout_width="146dp"
+            android:layout_height="58dp"
+            android:hint="About"
+            android:textColorHint="@color/blue"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:maxLines="5" />
+
+        <ImageView
+            android:id="@+id/imageViewProfilePhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/ic_profile_placeholder" />
+
+        <Button
+            android:id="@+id/buttonSelectImage"
+            android:text="Select Image"
+            android:layout_marginTop="20dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnSaveProfile"
+            android:text="Save Profile"
+            android:layout_marginTop="20dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>
