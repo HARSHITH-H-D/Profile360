@@ -54,3 +54,14 @@ For any questions or feedback, feel free to reach out:
 -**GitHub**: HARSHITH-H-D
 
   
+# SCREENSHOTS:
+
+![WhatsApp Image 2025-01-16 at 20 43 28_271ee0b4](https://github.com/user-attachments/assets/33affff4-4469-4d26-ae1b-bc3a69e6e41b)
+![WhatsApp Image 2025-01-16 at 20 44 18_1dd0c780](https://github.com/user-attachments/assets/35618bcb-1fb4-440d-9e4a-5da8211f7d09)
+![WhatsApp Image 2025-01-16 at 20 44 53_2e429b87](https://github.com/user-attachments/assets/f6dc5f6f-e103-48ee-b494-948769572c41)
+![WhatsApp Image 2025-01-16 at 20 48 05_bb4e672d](https://github.com/user-attachments/assets/d8ea9a2a-12da-4330-92ee-6fb6899e9d96)
+
+
+
+
+
